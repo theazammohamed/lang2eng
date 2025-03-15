@@ -1,10 +1,18 @@
-import './App.css';
+import './App.scss';
+import AppHeader from './AppHeader';
+import TranslateBox from './components/TranslateBox';
 
 function App() {
   return (
-    <div className="App">
-      Hello, Lang2Eng!
-    </div>
+    <>
+      <div className='landing'>
+        <AppHeader/>
+        <TranslateBox/>
+      </div>
+      <div className='onTranslated'>
+
+      </div>
+    </>
   );
 }
 

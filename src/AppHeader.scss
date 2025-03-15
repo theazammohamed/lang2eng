@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    .logo {
+        h1, span {
+            font-family: var(--montserrat);
+            font-size: 70px;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        h1 {
+            color: var(--white);
+        }
+
+        span {
+            color: var(--orange);
+        }
+    }
+
+    .description {
+        width: 30%;
+
+        p {
+            font-family: var(--poppins);
+            font-size: 20px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.705);
+            text-align: right;
+            line-height: 1.4;
+        }
+    }
+}

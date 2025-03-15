@@ -1,0 +1,62 @@
+.translateBox {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    gap: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    
+    .langSelect {
+        select {
+            font-family: var(--montserrat);
+            font-size: 16px;
+            font-weight: 500;
+            width: 100%;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: var(--orange);
+            color: var(--white);
+            border: none;
+
+            // for the icon
+            -webkit-appearance: none;
+            appearance: none;
+            -moz-appearance: none;
+            background-image: ('../src/assets/arrow-down.svg');
+            background-repeat: no-repeat;
+            background-size: 14px 14px;
+            background-position: calc(100% - 16px);
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .userInput {
+        height: 100%;
+
+        textarea {
+            width: 99.5%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            border: none;
+            background-color: var(--white);
+            font-family: var(--poppins);
+            font-size: 25px;
+            color: var(--blue);
+            resize: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .cta {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

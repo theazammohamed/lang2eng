@@ -47,11 +47,19 @@ table {
 /*	Variables */
 :root{
   /* Colours */
-	--blue: #2E3A59;
+  --blue: #2E3A59;
   --orange: #FF6B35;
   --white: #FFF8F0;
 
   /* Fonts */
   --montserrat: "Poppins", serif;
   --poppins: "Montserrat", serif;
+}
+
+
+// Global Styling
+body {
+	margin: 60px auto;
+	width: 80%;
+	background-color: var(--blue);
 }
